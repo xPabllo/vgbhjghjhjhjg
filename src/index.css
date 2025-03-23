@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #2B5C3B;
+  --secondary-color: #E6B655;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.calendar-container .rbc-calendar {
+  height: 600px;
+}
